@@ -319,7 +319,7 @@
         <module>external/storm-kinesis</module>
         <module>external/storm-druid</module>
         <module>external/storm-submit-tools</module>
-        <module>external/storm-sqe</module>
+
 
         <!-- examples -->
         <module>examples/storm-starter</module>
@@ -334,6 +334,10 @@
         <module>examples/storm-hive-examples</module>
         <module>examples/storm-elasticsearch-examples</module>
         <module>examples/storm-mqtt-examples</module>
+
+
+        <!-- temorarily at the bottom of the build chain until compillation is fixed -->
+        <module>external/storm-sqe</module>
     </modules>
 
     <dependencies>
